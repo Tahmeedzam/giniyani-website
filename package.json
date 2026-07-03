@@ -1,0 +1,13 @@
+{
+  "name": "giniyani-associates-website",
+  "version": "1.0.0",
+  "description": "Single-page website for Giniyani & Associates, Chartered Accountants",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./css/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./css/output.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
