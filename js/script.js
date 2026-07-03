@@ -140,6 +140,10 @@ const services = [
     title: "Stock Audit",
     body: "Physical and financial verification of inventory pledged against working capital limits, carried out for banks, to confirm stock value and condition.",
   },
+  {
+    title: "Statutory Audit",
+    body: "Independent, legally mandated audit of financial statements to confirm they present a true and fair view as required under the Companies Act — covering verification of books, compliance checks and the final audit report every registered company must file.",
+  },
 ];
 
 const servicesList = document.getElementById("servicesList");
